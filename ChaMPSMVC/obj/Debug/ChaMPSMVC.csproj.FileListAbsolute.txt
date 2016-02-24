@@ -1,0 +1,28 @@
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\bin\ChaMPSMVC.dll
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\bin\ChaMPSMVC.pdb
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\bin\EntityFramework.dll
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\bin\EntityFramework.xml
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\obj\Debug\ResolveAssemblyReference.cache
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\obj\Debug\ChaMPSMVC.dll
+c:\users\dvusc5w\documents\visual studio 2010\Projects\ChaMPSMVC\ChaMPSMVC\obj\Debug\ChaMPSMVC.pdb
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\ChaMPSMVC.dll.config
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\ChaMPSMVC.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\ChaMPSMVC.pdb
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\EntityFramework.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Helpers.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Mvc.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Razor.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.Deployment.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.Razor.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\EntityFramework.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Helpers.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Mvc.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.Razor.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.Deployment.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\bin\System.Web.WebPages.Razor.xml
+C:\steve\ChaMPSMVC\ChaMPSMVC\obj\Debug\ChaMPSMVC.csprojResolveAssemblyReference.cache
+C:\steve\ChaMPSMVC\ChaMPSMVC\obj\Debug\ChaMPSMVC.dll
+C:\steve\ChaMPSMVC\ChaMPSMVC\obj\Debug\ChaMPSMVC.pdb

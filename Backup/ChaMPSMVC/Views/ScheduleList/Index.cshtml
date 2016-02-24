@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ChaMPSMVC.Models.Schedule>
+
+@{
+    ViewBag.Title = "Schedule List";
+}
+
+<h2>Schedule List</h2>
+<p>@ViewBag.Message</p>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+         <th>
+            schName
+        </th>
+        <th>
+            schDescription
+        </th>
+        <th>
+            schPlant
+        </th>
+        <th>
+            schActive
+        </th>
+        <th>
+            schLastScheduledDT
+        </th>
+        <th>
+            schLastCompleteDT
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.schName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.schDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.schPlant)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.schActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.schLastScheduledDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.schLastCompleteDT)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {schid=item.schKey}) |
+            @Html.ActionLink("Details", "Details", new {schid=item.schKey}) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

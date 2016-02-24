@@ -1,0 +1,30 @@
+﻿@model ChaMPSMVC.Models.Schedule
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm()) {
+     @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "Activation change was unsuccessful. Please correct the errors and try again.")
+    <div>
+        <fieldset>
+<p> Schedule Name: @Model.schName @Html.HiddenFor(model => model.schKey)<br />
+Switch the schedules activation: 
+@Html.DropDownList("schActive",
+    new List<SelectListItem>
+        {
+                    new SelectListItem { Text = "Not Active", Value = "0", Selected=false},
+                    new SelectListItem { Text = "Active", Value = "1", Selected = false},
+                    new SelectListItem { Value = "2", Text="Error", Selected = false}
+        }, "Select Active")
+
+</p>
+            <p>
+                <input type="submit" value="Change Activation" />
+            </p>
+        </fieldset>
+    </div>
+@Html.ActionLink("Cancel", "Index", "ScheduleList")
+}

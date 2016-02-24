@@ -1,0 +1,52 @@
+﻿@model ChaMPSMVC.Models.Schedule
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details for @Html.DisplayFor(modelItem => Model.schName)</h2>
+<table>
+    <tr>
+         <th>
+            schName
+        </th>
+        <th>
+            schDescription
+        </th>
+        <th>
+            schPlant
+        </th>
+        <th>
+            schActive
+        </th>
+        <th>
+            schLastScheduledDT
+        </th>
+        <th>
+            schLastCompleteDT
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schPlant)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schLastScheduledDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.schLastCompleteDT)
+        </td>
+    </tr>
+
+</table>
+<p>@Html.ActionLink("Edit", "Edit", new { schid=Model.schKey }) | @Html.ActionLink("Schedule List", "Index", "ScheduleList")</p>
